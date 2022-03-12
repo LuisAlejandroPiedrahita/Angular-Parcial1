@@ -1,0 +1,21 @@
+<div class="container-form m-2" id="contenedor">
+  <h2 id="titulo">Bienvenido al Parqueadero Toretto</h2>
+  <form class="form-group">
+    <div class="row">
+      <div class="col-md-6 mb-3">
+        <h4 for="" class="mb-2" id="texto-ingresar">Ingrese la fecha de Ingreso</h4>
+        <input class="form-control" type="datetime-local" id="datetime-local" #fechaInicio>
+      </div>
+      <div class="col-md-6 mb-3" >
+        <h4 class="mb-2" id="texto-ingresar2">Ingrese la fecha de salida</h4>
+        <input class="form-control" type="datetime-local" id="datetime-local" #fechaSalida>
+      </div>
+    </div>
+    <div class="row">
+      <div class="mb-2" id="boton">
+        <button (click)="calcularFechaFinal(fechaInicio.value, fechaSalida.value)" type="submit" class="btn btn-danger">Enviar</button>
+      </div>
+    </div>
+  </form>
+  <h4 id="cargo" class="mt-2"><strong>Cargo Total:</strong> {{cargo}} </h4>
+</div>

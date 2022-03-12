@@ -1,0 +1,11 @@
+<div class="container mt-2" id="contenedor">
+  <h2 class="mb-3" id="titulo">Conversion de Fahrenheit a centigrados</h2>
+  <app-form-conversion (numeroCentigrados)="convertirCenFahrenheit ($event)"
+                       (numeroFahrenheit)="convertirFahCentigrados($event)"></app-form-conversion>
+
+  <h3 class="mb-3" id="subtitulo">Resultado de las conversiones</h3>
+  <app-resultado-conversion [centigrados] = "centigrados" [Fahrenheit] = "Fahrenheit">
+  </app-resultado-conversion>
+</div>
+
+

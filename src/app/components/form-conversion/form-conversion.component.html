@@ -1,0 +1,31 @@
+<div class="container" id="contenedor">
+  <div class="form-group mt-2 mb-2">
+    <div class="row">
+      <div class="col-md-6 mb-3 mt-2" id="texto-ingresar">
+        <label for="numeroFahrenheit" >Ingrese el grado en Centigrados a convertir</label>
+        <input type="number"
+               class="form-control"
+               id="numeroFahrenheit"
+               name="numeroFahrenheit"
+               [(ngModel)]="centigrados">
+        </div>
+      <div class="col-md-6 mb-3 mt-2" id="texto-ingresar2">
+        <label for="numeroCentigrado" >Ingrese el grado en Fahrenheit a convertir</label>
+        <input type="number"
+               class="form-control"
+               id="numeroCentigrado"
+               name="numeroCentigrado"
+               [(ngModel)]="Fahrenheit">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 mb-3" id="boton-ingresar">
+        <button type="button" class="btn btn-danger" (click)="convertirCenFahrenheit()">Convertir</button>
+      </div>
+      <div class="col-md-6 mb-3" id="boton-ingresar2">
+        <button type="button" class="btn btn-danger" (click)="convertirFahCentigrados()">Convertir</button>
+      </div>
+    </div>
+  </div>
+
+</div>

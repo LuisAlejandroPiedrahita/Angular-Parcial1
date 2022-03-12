@@ -1,0 +1,18 @@
+#contenedor{
+  background-color: antiquewhite;
+  font-family: "Century Gothic";
+}
+#texto-ingresar{
+  text-align: center;
+  font-weight: bold;
+}
+#texto-ingresar2{
+  text-align: center;
+  font-weight: bold;
+}
+#boton-ingresar{
+  text-align: center;
+}
+#boton-ingresar2{
+  text-align: center;
+}

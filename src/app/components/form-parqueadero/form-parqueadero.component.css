@@ -1,0 +1,22 @@
+#contenedor{
+  background-color: antiquewhite;
+  font-family: "Century Gothic";
+}
+#titulo{
+  text-align: center;
+  font-weight: bold;
+}
+#cargo{
+  text-align: center;
+}
+#boton{
+  text-align: center;
+}
+#texto-ingresar{
+  text-align: center;
+  font-weight: bold;
+}
+#texto-ingresar2{
+  text-align: center;
+  font-weight: bold;
+}

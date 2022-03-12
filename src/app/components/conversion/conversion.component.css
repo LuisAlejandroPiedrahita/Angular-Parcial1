@@ -1,0 +1,11 @@
+#contenedor{
+  font-family: "Century Gothic";
+  text-align: center;
+  background-color: antiquewhite;
+}
+#titulo{
+  font-weight: bold;
+}
+#subtitulo{
+  font-weight: bold;
+}
